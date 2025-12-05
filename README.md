@@ -267,4 +267,4 @@ For issues or questions, refer to the project documentation or contact the devel
 Built with Next.js, TypeScript, and shadcn/ui
 \`\`\`
 
-```tsx file="" isHidden
+\`\`\`tsx file="" isHidden
