@@ -1,0 +1,40 @@
+import type { VerificationRequest } from "@/types/verification"
+
+export const mockVerificationRequests: VerificationRequest[] = [
+  {
+    id: "ver-req-1",
+    documentId: "doc-5",
+    citizenId: "user-1",
+    citizenName: "John Citizen",
+    authorityId: "auth-5",
+    documentType: "tax_clearance",
+    status: "pending",
+    submittedDate: "2024-01-20T08:30:00Z",
+    priority: "medium",
+  },
+  {
+    id: "ver-req-2",
+    documentId: "doc-new-1",
+    citizenId: "user-1",
+    citizenName: "John Citizen",
+    authorityId: "auth-1",
+    documentType: "transcript",
+    status: "pending",
+    submittedDate: "2024-11-25T14:20:00Z",
+    priority: "low",
+  },
+  {
+    id: "ver-req-3",
+    documentId: "doc-new-2",
+    citizenId: "user-1",
+    citizenName: "John Citizen",
+    authorityId: "auth-2",
+    documentType: "marriage_certificate",
+    status: "approved",
+    submittedDate: "2024-11-10T10:15:00Z",
+    reviewedDate: "2024-11-12T16:30:00Z",
+    reviewedBy: "officer-2",
+    comments: "All documentation verified and approved.",
+    priority: "high",
+  },
+]
